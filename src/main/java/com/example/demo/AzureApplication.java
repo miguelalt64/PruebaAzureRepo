@@ -16,7 +16,7 @@ public class AzureApplication {
 	@GetMapping("/mensaje")
 	@ResponseStatus(HttpStatus.OK)
 	public String getProfesores(){
-		return "Hola Mundo Azure";
+		return "Hola Mundo Azure!!!!";
 	}
 	
 	public static void main(String[] args) {
